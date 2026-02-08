@@ -1,5 +1,19 @@
 # web-api-xray
 
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688?logo=fastapi&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-Browser_Automation-45ba4b?logo=playwright&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Supported-2496ED?logo=docker)
+![Swagger](https://img.shields.io/badge/Swagger-UI-85EA2D?logo=swagger&logoColor=black)
+![REST API](https://img.shields.io/badge/API-REST-orange)
+![Chromium](https://img.shields.io/badge/Browser-Chromium-lightgrey?logo=googlechrome)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+
+
+
+
 
 ![Web API Xray](assets/web-api-xray.png)
 
@@ -131,6 +145,26 @@ Captures **one specific backend API request/response** by matching a URL substri
     }
   ]
 }
+```
+
+---
+
+## 🐳 Docker Commands
+
+### Build Image
+```bash
+docker build -t web-api-xray .
+```
+
+### Run Container
+```bash
+docker run -d --name web-api-xray -p 7860:7860 web-api-xray
+```
+
+### Stop Container
+```bash
+docker stop web-api-xray
+```
 ```
 
 ---
