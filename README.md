@@ -167,8 +167,6 @@ docker stop web-api-xray
 ```
 ```
 
----
-
 ## 📘 API Docs
 
 - Swagger UI: http://localhost:7860/docs
