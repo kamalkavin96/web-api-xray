@@ -171,5 +171,6 @@ docker stop web-api-xray
 
 ## 📘 API Docs
 
-- Swagger UI: http://localhost:7860/docs
-- OpenAPI: http://localhost:7860/openapi.json
+- [Swagger UI](http://localhost:7860/docs)
+- [OpenAPI Spec](http://localhost:7860/openapi.json)
+
